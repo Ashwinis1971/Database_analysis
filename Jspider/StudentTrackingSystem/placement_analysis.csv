@@ -1,0 +1,5 @@
+id,student_id,company_name,job_role,package,interview_date,placement_status,target_rating
+1,1,TYSS,developer,8.5,2024-09-03,True,4.5
+4,2,Tech M,data analyst,9.0,2024-09-03,True,5.7
+5,3,TCS,DS,9.0,2024-09-03,True,9.0
+6,4,Wipro,DS,9.0,2024-09-03,True,8.0

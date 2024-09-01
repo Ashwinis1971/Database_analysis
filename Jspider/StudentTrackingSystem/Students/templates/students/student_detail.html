@@ -1,0 +1,26 @@
+<title>{{student.name}}</title>
+<h1>{{student.name}}</h1>
+
+<p>Email: {{student.Email}}</p>
+<p>Phone: {{student.Phone}}</p>
+<p>Education: {{student.Education}}</p>
+<p>Batch: {{student.Batch}}</p>
+
+<h2>Courses</h2>
+<ul>
+    {% for course in Course}
+    <li>
+        {{course.course_name}} - Score {{course.Score}}
+    </li>
+    {% endfor %}
+</ul>
+
+<h2>Placements</h2>
+<ul>
+    {% for placement in Placements}
+    <li>
+        {{placement.company_name}} - Role: {{placement.job_role}} - 
+        package: {{placement.package}}
+    </li>
+    {% endfor %}
+</ul>
